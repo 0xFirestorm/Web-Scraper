@@ -111,4 +111,3 @@ Price decreased: 0
 
 - Scrapy: Web scraping framework
 - Firebase Admin SDK: Firebase integration
-- Python-dotenv: Environment variable management 
