@@ -1,6 +1,6 @@
 # J. Scraper
 
-This  scraper was made as an assignment for a job screening
+This  scraper was made as an assignment for a job screening.
 A web scraper for J.'s website that tracks product changes and generates comparison reports.
 
 ## Features
