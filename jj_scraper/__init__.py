@@ -1,0 +1,1 @@
+# This file makes the jj_scraper directory a Python package 
