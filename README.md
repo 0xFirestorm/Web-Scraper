@@ -1,6 +1,7 @@
-# JJ Scraper
+# J. Scraper
 
-A web scraper for JJ's website that tracks product changes and generates comparison reports.
+This  scraper was made as an assignment for a job screening
+A web scraper for J.'s website that tracks product changes and generates comparison reports.
 
 ## Features
 
@@ -21,20 +22,7 @@ A web scraper for JJ's website that tracks product changes and generates compari
 - Used CSS selectors for reliable data extraction
 - Implemented rate limiting to avoid overwhelming the server
 
-### 2. Data Storage
-- Chose Firebase Firestore for:
-  - Real-time data synchronization
-  - Scalable document-based storage
-  - Easy querying and filtering
-  - Built-in timestamp support
-- Implemented batch processing for efficient data updates
-- Created separate collections for:
-  - Products (current state)
-  - Price history (tracking changes)
-  - Stock history (tracking availability)
-  - Reports (comparison results)
-
-### 3. Comparison Logic
+### 2. Comparison Logic
 - Implemented a two-phase comparison:
   1. Get existing data from Firestore
   2. Run scraper to get current website data
@@ -46,7 +34,7 @@ A web scraper for JJ's website that tracks product changes and generates compari
 - Used set operations for efficient comparison
 - Implemented proper price formatting to handle currency symbols and commas
 
-### 4. Report Generation
+### 3. Report Generation
 - Created a structured report format with:
   - Summary counts for each type of change
   - Detailed lists of affected product IDs
